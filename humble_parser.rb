@@ -83,8 +83,6 @@ noko.xpath('//a').each do |ele|
 
 end
 
-download_toggle = false
-
 if download_toggle
 
   if !Dir::entries('.').include?(output_directory)
