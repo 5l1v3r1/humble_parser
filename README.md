@@ -2,11 +2,20 @@
 
 Using post-rendered HTML content from a Humble Bundle download page as input, parse the HTML and download each of the specified files.
 
+# Dependencies
+
+Install dependencies by...
+
+    git clone https://github.com/arch4ngel/humble_parser
+    cd humble_parser
+    sudo gem install bundler
+    sudo bundle install
+
 # Usage
 
 1. Extract HTML source (see following section)
 2. Paste HTML content below ```__END__``` keyword
-3. Run the script
+3. Run the script via ```ruby humble_parser.rb```
 
 ## Notes
 
